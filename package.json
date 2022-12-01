@@ -1,0 +1,38 @@
+{
+    "name": "starter-kit",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "node_modules/.bin/tsc",
+        "start": "node dist/main-api.js",
+        "restart": "npm run build && clear && npm run start"
+    },
+    "dependencies": {
+        "@fastify/jwt": "^6.4.0",
+        "@fastify/static": "^6.5.1",
+        "@types/jsonwebtoken": "^8.5.9",
+        "axios": "^1.2.0",
+        "chalk": "4.1.2",
+        "del-cli": "3.0.1",
+        "dotenv": "^16.0.3",
+        "fastify": "^4.10.2",
+        "fastify-file-upload": "^4.0.0",
+        "inversify": "^6.0.1",
+        "ioredis": "^5.2.4",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^4.12.1",
+        "reflect-metadata": "0.1.13",
+        "tslib": "1.14.1",
+        "typescript": "4.5.4"
+    },
+    "devDependencies": {
+        "@types/node": "16.18.0",
+        "source-map-support": "*"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Javohir Abdusattorov",
+        "email": "javohirabdusattorov2005@gmail.com"
+    },
+    "license": "ISC"
+}
