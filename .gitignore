@@ -44,3 +44,7 @@ temp
 # Build directory
 dist
 build
+
+# Files
+public/temp
+public/uploads
